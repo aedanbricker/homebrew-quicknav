@@ -10,7 +10,7 @@ class Quicknav < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", "--release", "--bin", "rustscan"
+    system "cargo", "build", "--release", "--bin", "quicknav"
     bin.install "target/release/quicknav"
   end
 end
