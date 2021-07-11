@@ -4,9 +4,9 @@
 class Quicknav < Formula
   desc "Quicknav is a command line tool that allows you to easily jump to specific locations in your filesystem from a simple command. Quicknav is built for terminal navigation on Unix operating systems."
   homepage "https://github.com/MrDogeBro/quicknav"
-  url "https://github.com/MrDogeBro/quicknav/archive/v1.1.1.tar.gz"
-  sha256 "79be6e58c426cdcad8ee844743f5398c638f40f6504644094f9ee0b72297ce2e"
-  version "1.1.1"
+  url "https://github.com/MrDogeBro/quicknav/archive/v1.2.0.tar.gz"
+  sha256 "62864300f972922725b57bf7bdf7c2025995a390b6b25fc8f713b9cb090d8387"
+  version "1.2.0"
   depends_on "rust" => :build
 
   def install
